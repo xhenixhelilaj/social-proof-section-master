@@ -34,8 +34,6 @@ article{
 h1{
     font-size: 45px;
     color: var(--color-title);
-    
-   
 }
 h4{
     font-size: 14px;
@@ -120,5 +118,35 @@ h4{
 
 .attribution{
     text-align: center;
-
+}
+@media (max-width:600px){
+    article{
+        padding:2% ;
+    }
+    .top-part{
+        padding-top: 15%;
+        display: block;
+        text-align: center;
+    }
+    .first,.second,.third{
+        transform: none;
+        margin: 5%;
+    }
+    .review{
+        display: block;
+    }
+    .colton-smith{
+        margin-bottom: 10px;
+    }
+    .irene-roberts{
+        transform: none;
+        margin-bottom: 10px;
+    }
+    .anne-wallace{
+        transform: none;
+    }
+    .attribution{
+        font-size: 13px;
+    }
+   
 }
